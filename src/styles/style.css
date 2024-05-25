@@ -1,0 +1,78 @@
+/* Main start */
+:root{
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --linear-gradient: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.418));
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: var(--color-black);
+    color: var(--color-white);
+
+}
+
+/* Main End */
+
+/* Hero Start */
+.hero {
+    width: 100vw;
+    max-width: 100%;
+    height: 45vh;
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: var(--linear-gradient), url("../../public/img/HeroNav/herobg2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 4.5em;
+    margin-top: 0;
+    margin-bottom: 0.1em;
+}
+/* Hero End */
+
+/* Mision&Vision start */
+ .mision:hover, .vision:hover{
+    box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.31);
+    /* box-shadow: inset 0px 0px 8px 1px rgba(255,255,255,0.31); */
+    position:relative ;
+    top: -10px;
+}
+/* Mision&Vision End */
+
+/* Team Section Card Start */
+.hover-content {
+    opacity: 0;
+    transition: opacity 0.5s;      
+  }
+  
+  .card:hover .hover-content {
+    opacity: 1;
+    background-image: var(--linear-gradient);
+  }
+
+.card-team-yj{
+    object-fit: cover;
+    
+}
+/* Team Section Card End */
+
+
+
+
+@media(max-width: 990px){
+    
+    }
